@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List (Roman Numerals)</h2>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Pixel.com Image Insertion</h2>
+    <img src="https://images.pexels.com/photos/30097299/pexels-photo-30097299/free-photo-of-bookshop-facade-on-edinburgh-street.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"alt="pixel image" width="550" height="350">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellspacing="0" cellpadding="6">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tr>
+            <tr>
+                <td>Duncan Mutua</td>
+                <td>Nairobi, City</td>
+                <td>+254757236138</td>
+                <td>duncannmmutua@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Moncoment Azingare</td>
+                <td>Mombasa, City</td>
+                <td>+2547578366821</td>
+                <td>moncoment@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>Kisumu, City</td>
+                <td>+254726730199</td>
+                <td>michaeljohnson@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Sarah Wilson</td>
+                <td>Nakuru, City</td>
+                <td>+254720320122</td>
+                <td>sarahwilson@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a strong password" required
+            minlength="6">
+        <br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+        <br><br>
+
+        <!-- Dropdown Menu -->
+        <label for="country">Select Country:</label>
+        <select id="country" name="country" required>
+            <option value="">--Select--</option>
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label>
+        <br><br>
+
+        <!-- Checkboxes -->
+        <p>Interests:</p>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Reading</label>
+        <br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
